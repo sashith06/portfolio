@@ -1,4 +1,5 @@
 import React from 'react';
+import conferenceImage from '../assets/pictures/conference1.jpg';
 
 
 const Projects = () => {
@@ -25,7 +26,7 @@ const Projects = () => {
       id: 3,
       title: "Conference Management System",
       description: "A comprehensive conference management system for organizing University conferences day, managing registrations, and facilitating communication between attendees and organizers.",
-      image: "/pictures/conference1.JPG",
+      image: conferenceImage,
       technologies: ["HTML", "CSS", "MySQL"],
       liveUrl: "#",
       githubUrl: "https://github.com/sashith06/Conference-Management-System.git"

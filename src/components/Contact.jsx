@@ -1,4 +1,8 @@
 import { useState } from 'react';
+import linkedinIcon from '../assets/pictures/linkedin.png';
+import githubIcon from '../assets/pictures/github.png';
+import facebookIcon from '../assets/pictures/facebook.png';
+import instagramIcon from '../assets/pictures/instagram.png';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -103,10 +107,10 @@ const Contact = () => {
               <h4 className="font-medium text-gray-800 mb-4">Follow Me</h4>
               <div className="flex gap-4">
                 {[
-                  { name: 'LinkedIn', icon: '/pictures/linkedin.png', url: '#' },
-                  { name: 'GitHub', icon: '/pictures/github.png', url: '#' },
-                  { name: 'Facebook', icon: '/pictures/facebook.png', url: '#' },
-                  { name: 'Instagram', icon: '/pictures/instagram.png', url: '#' }
+                  { name: 'LinkedIn', icon: linkedinIcon, url: '#' },
+                  { name: 'GitHub', icon: githubIcon, url: 'https://github.com/dashboard' },
+                  { name: 'Facebook', icon: facebookIcon, url: '#' },
+                  { name: 'Instagram', icon: instagramIcon, url: '#' }
                 ].map((social) => (
                   <a
                     key={social.name}
