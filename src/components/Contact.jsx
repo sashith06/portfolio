@@ -107,7 +107,7 @@ const Contact = () => {
               <h4 className="font-medium text-gray-800 mb-4">Follow Me</h4>
               <div className="flex gap-4">
                 {[
-                  { name: 'LinkedIn', icon: linkedinIcon, url: '#' },
+                  { name: 'LinkedIn', icon: linkedinIcon, url: 'https://www.linkedin.com/in/sashith-thushan-257459306' },
                   { name: 'GitHub', icon: githubIcon, url: 'https://github.com/dashboard' },
                   { name: 'Facebook', icon: facebookIcon, url: '#' },
                   { name: 'Instagram', icon: instagramIcon, url: '#' }
