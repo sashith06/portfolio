@@ -1,4 +1,5 @@
 import mypohoto2 from '../assets/pictures/myphoto2.jpg';
+import myphoto3 from '../assets/pictures/myphoto3.jpg';
 
 const About = () => {
   return (

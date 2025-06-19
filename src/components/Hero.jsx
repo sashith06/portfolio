@@ -1,4 +1,5 @@
 import mypohoto from '../assets/pictures/myphoto.jpeg';
+import myphoto3 from '../assets/pictures/myphoto3.jpg';
 
 const Hero = () => {
   return (
@@ -8,7 +9,7 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="mb-8">
             <img
-              src={mypohoto}
+              src={myphoto3}
               alt="K.Sashith Thushan"
               className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto border-4 border-white shadow-xl object-cover"
             />
