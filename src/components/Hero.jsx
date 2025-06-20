@@ -43,6 +43,13 @@ const Hero = () => {
             >
               Get In Touch
             </button>
+          <a 
+              href="/cv.pdf" 
+              download 
+              className="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-3 px-6 rounded-lg transition-all duration-200"
+            >
+              Download CV
+            </a>  
           </div>
         </div>
 
