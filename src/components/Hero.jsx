@@ -1,6 +1,5 @@
 import mypohoto from '../assets/pictures/myphoto.jpeg';
 import myphoto3 from '../assets/pictures/myphoto3.jpg';
-import mycv from '../assets/pdf/my_cv.pdf';
 
 const Hero = () => {
   return (
@@ -45,7 +44,7 @@ const Hero = () => {
               Get In Touch
             </button>
           <a 
-              href={mycv} 
+              href= "/my_cv.pdf"
               download 
               className="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-3 px-6 rounded-lg transition-all duration-200"
             >
