@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Task Management App", 
       description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
       image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600",
       technologies: ["React", "Firebase", "Material-UI", "Socket.io"],
