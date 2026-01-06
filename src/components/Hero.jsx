@@ -1,4 +1,3 @@
-import mypohoto from '../assets/pictures/myphoto.jpeg';
 import myphoto3 from '../assets/pictures/myphoto3.jpg';
 
 const Hero = () => {
@@ -25,31 +24,31 @@ const Hero = () => {
 
           {/* Tagline */}
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-12 text-blue-100 leading-relaxed animate-slide-up">
-            Passionate Full Stack Developer dedicated to building end-to-end web solutions. 
+            Passionate Full Stack Developer dedicated to building end-to-end web solutions.
             I turn complex problems into seamless, user-centered applications—from intuitive frontends to robust backends.
           </p>
 
           {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up">
-            <button 
+            <button
               onClick={() => document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}
               className="btn-primary bg-white text-primary-600 hover:bg-gray-100"
             >
               View My Work
             </button>
-            <button 
+            <button
               onClick={() => document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}
               className="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-3 px-6 rounded-lg transition-all duration-200"
             >
               Get In Touch
             </button>
-          <a 
-              href= "/my_cv.pdf"
-              download 
+            <a
+              href="/portfolio/Sashith_Thushan_CV.pdf"
+              download="Sashith_Thushan_CV.pdf"
               className="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-3 px-6 rounded-lg transition-all duration-200"
             >
               Download CV
-            </a>  
+            </a>
           </div>
         </div>
 
